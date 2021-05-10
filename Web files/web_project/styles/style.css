@@ -1,0 +1,53 @@
+   /* p, li ,h1{      /* Css birden fazla etiketi özelliklerini değiştirmek 
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+  }
+        */
+html{
+    font-family: 'Cormorant SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    background-color: #00534F;
+}
+a{
+    color:rgb(96, 244, 133);
+}
+
+
+h1{
+    margin:0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 5px 5px 5px black; /*yatay(uzağa) dikey(aşağı) bulanıklık bulanıklık_rengi*/
+    font-size: 20px;
+    text-align: center;
+}
+
+p,li{
+    font-size: 16px;
+    line-height: 2;     /*Satır yüksekligi*/
+    letter-spacing: 1px;    /*Harf pixel aralıgı */
+}
+
+body{
+    width: 735px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    /*padding: 20px; Hepsinden 20px aralık bırakmak*/
+    padding: 20 20px 20px 20px; /*Üst sağ alt sol Paragraf etrafında boşluk bırakmak*/
+    border: 6px solid black; /*En dış sınır*/
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*CSS düzeni çoğunlukla kutu modeline dayanır . Sayfanızda yer kaplayan her kutu aşağıdaki gibi özelliklere sahiptir:
+
+padding : İçeriğin etrafındaki boşluk. Aşağıdaki örnekte, paragraf metninin etrafındaki boşluktur.
+border  : Dolgunun hemen dışındaki düz çizgi.
+margin  : Sınırın dışındaki boşluk.*/
+
